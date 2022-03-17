@@ -7,21 +7,31 @@
 
 import UIKit
 
-class EnterInput: UIViewController {
+protocol UpdateFirstScreenDelegate{
+    func updateLabel(value:String)
+}
+
+class SecondEnterInput: UIViewController {
+
 
     @IBOutlet weak var nametextfield: UITextField!
   
+    var delegate: UpdateFirstScreenDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+
     }
+    
+    
 
 
     @IBAction func btnClicked(_ sender: UIButton) {
-        if let displayVc = self.storyboard?.instantiateViewController(withIdentifier: "DisplayInputController") as? DisplayInputController{
-            displayVc.getInput = nametextfield.text
-            self.navigationController?.pushViewController(displayVc, animated: true)
-        }
+//        navigationController?.popViewController(animated: true)
+        print(delegate)
+        delegate?.updateLabel(value: nametextfield.text!)
+        //delegate?.test()
     }
     
 }

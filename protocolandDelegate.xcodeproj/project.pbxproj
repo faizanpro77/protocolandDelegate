@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		2B53862B27E2EDB6001CE941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53862A27E2EDB6001CE941 /* AppDelegate.swift */; };
 		2B53862D27E2EDB6001CE941 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53862C27E2EDB6001CE941 /* SceneDelegate.swift */; };
-		2B53862F27E2EDB6001CE941 /* EnterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53862E27E2EDB6001CE941 /* EnterInput.swift */; };
+		2B53862F27E2EDB6001CE941 /* SecondEnterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53862E27E2EDB6001CE941 /* SecondEnterInput.swift */; };
 		2B53863227E2EDB6001CE941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B53863027E2EDB6001CE941 /* Main.storyboard */; };
 		2B53863527E2EDB6001CE941 /* protocolandDelegate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B53863327E2EDB6001CE941 /* protocolandDelegate.xcdatamodeld */; };
 		2B53863727E2EDB9001CE941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B53863627E2EDB9001CE941 /* Assets.xcassets */; };
 		2B53863A27E2EDB9001CE941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B53863827E2EDB9001CE941 /* LaunchScreen.storyboard */; };
-		2B53864227E2F035001CE941 /* DisplayInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53864127E2F035001CE941 /* DisplayInputController.swift */; };
+		2B53864227E2F035001CE941 /* FirstDisplayInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B53864127E2F035001CE941 /* FirstDisplayInputController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B53862727E2EDB6001CE941 /* protocolandDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protocolandDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B53862A27E2EDB6001CE941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B53862C27E2EDB6001CE941 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B53862E27E2EDB6001CE941 /* EnterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterInput.swift; sourceTree = "<group>"; };
+		2B53862E27E2EDB6001CE941 /* SecondEnterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondEnterInput.swift; sourceTree = "<group>"; };
 		2B53863127E2EDB6001CE941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B53863427E2EDB6001CE941 /* protocolandDelegate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = protocolandDelegate.xcdatamodel; sourceTree = "<group>"; };
 		2B53863627E2EDB9001CE941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B53863927E2EDB9001CE941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B53863B27E2EDB9001CE941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B53864127E2F035001CE941 /* DisplayInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInputController.swift; sourceTree = "<group>"; };
+		2B53864127E2F035001CE941 /* FirstDisplayInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDisplayInputController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			children = (
 				2B53862A27E2EDB6001CE941 /* AppDelegate.swift */,
 				2B53862C27E2EDB6001CE941 /* SceneDelegate.swift */,
-				2B53862E27E2EDB6001CE941 /* EnterInput.swift */,
-				2B53864127E2F035001CE941 /* DisplayInputController.swift */,
+				2B53862E27E2EDB6001CE941 /* SecondEnterInput.swift */,
+				2B53864127E2F035001CE941 /* FirstDisplayInputController.swift */,
 				2B53863027E2EDB6001CE941 /* Main.storyboard */,
 				2B53863627E2EDB9001CE941 /* Assets.xcassets */,
 				2B53863827E2EDB9001CE941 /* LaunchScreen.storyboard */,
@@ -145,10 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B53863527E2EDB6001CE941 /* protocolandDelegate.xcdatamodeld in Sources */,
-				2B53862F27E2EDB6001CE941 /* EnterInput.swift in Sources */,
+				2B53862F27E2EDB6001CE941 /* SecondEnterInput.swift in Sources */,
 				2B53862B27E2EDB6001CE941 /* AppDelegate.swift in Sources */,
 				2B53862D27E2EDB6001CE941 /* SceneDelegate.swift in Sources */,
-				2B53864227E2F035001CE941 /* DisplayInputController.swift in Sources */,
+				2B53864227E2F035001CE941 /* FirstDisplayInputController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
